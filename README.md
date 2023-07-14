@@ -11,14 +11,14 @@
     * [Accuracy Report for Each class](#Accuracy-Report-for-Each-class )
 
 # File Structure
-* [custom_models](https://github.com/deepanshudashora/custom_models) -> A Repository contains files for training 
-    * [custom_resnet.py](https://github.com/deepanshudashora/custom_models/blob/main/custom_resnet.py) -> For importing model architecture
-    * [train.py](https://github.com/deepanshudashora/custom_models/blob/main/train.py) -> Contains training loop 
-    * [test.py](https://github.com/deepanshudashora/custom_models/blob/main/test.py) -> Contains code for running model on the test set 
-    * [utils.py](https://github.com/deepanshudashora/custom_models/blob/main/utils.py) -> Contains supportive functions
+* [custom_models](https://github.com/Navyabhat03/custom-models/tree/main/custom_models-main/custom_models-main) -> A Repository contains files for training 
+    * [custom_resnet.py](https://github.com/Navyabhat03/custom-models/blob/main/custom_models-main/custom_models-main/custom_resnet.py) -> For importing model architecture
+    * [train.py](https://github.com/Navyabhat03/custom-models/blob/main/custom_models-main/custom_models-main/train.py) -> Contains training loop 
+    * [test.py](https://github.com/Navyabhat03/custom-models/blob/main/custom_models-main/custom_models-main/test.py) -> Contains code for running model on the test set 
+    * [utils.py](https://github.com/Navyabhat03/custom-models/blob/main/custom_models-main/custom_models-main/utils.py) -> Contains supportive functions
 
-* [S10.ipynb](https://github.com/deepanshudashora/ERAV1/blob/master/session10/S10.ipynb) -> Notebook Contains model training
-* [Experiments](https://github.com/deepanshudashora/ERAV1/tree/master/session10/experiments) -> Contains other experiments before dividing the final model and accuracy  
+* [S10.ipynb](https://github.com/Navyabhat03/ERA-V1-Session-10/blob/main/S10.ipynb) -> Notebook Contains model training
+* [Experiments](https://github.com/Navyabhat03/ERA-V1-Session-10/tree/main/experiments) -> Contains other experiments before dividing the final model and accuracy  
 
 # Problem Statement
 1. Train CNN on cifar dataset with residual blocks
@@ -29,7 +29,7 @@
 
 # LR Finding 
 
-For finding the Optimal learning rate [torch_lr_finder](https://github.com/davidtvs/pytorch-lr-finder) module is used
+For finding the Optimal learning rate module is used
 
 ```
 from torch_lr_finder import LRFinder
@@ -111,10 +111,10 @@ Estimated Total Size (MB): 2414.99
 
 |Model Experiments|Found Max LR|Min LR|Best Validation accuracy| Best Training Accuray |
 |--|--|--|--|--|
-|[Exp-1](https://github.com/deepanshudashora/ERAV1/blob/master/session10/experiments/S10_95_90.ipynb)|3.31E-02|0.023|90.91%|95.88%|
-|[Exp-2](https://github.com/deepanshudashora/ERAV1/blob/master/session10/experiments/S10_96_91.ipynb)|2.63E-02|0.02|91.32%|96.95%|
-|[Exp-3](https://github.com/deepanshudashora/ERAV1/blob/master/session10/experiments/S10_98_91.ipynb)|1.19E-02|0.01|91.72%|98.77%|
-|[S10.ipynb](https://github.com/deepanshudashora/ERAV1/blob/master/session10/S10.ipynb)|1.87E-02|0.01|91.80%|96.93%|
+|[Exp-1](https://github.com/Navyabhat03/ERA-V1-Session-10/blob/main/experiments/S10_95_90.ipynb)|3.31E-02|0.023|90.91%|95.88%|
+|[Exp-2](https://github.com/Navyabhat03/ERA-V1-Session-10/blob/main/experiments/S10_96_91.ipynb)|2.63E-02|0.02|91.32%|96.95%|
+|[Exp-3](https://github.com/Navyabhat03/ERA-V1-Session-10/blob/main/experiments/S10_98_91.ipynb)|1.19E-02|0.01|91.72%|98.77%|
+|[S10.ipynb](https://github.com/Navyabhat03/ERA-V1-Session-10/blob/main/S10.ipynb)|1.87E-02|0.01|91.80%|96.93%|
 
 
 
